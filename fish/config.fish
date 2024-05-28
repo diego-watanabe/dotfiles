@@ -9,3 +9,4 @@ else
 end
  
 set -x PATH $PATH /usr/bin
+set -x PATH $PATH $HOME/go/bin
