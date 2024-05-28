@@ -3,9 +3,9 @@ return {
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",
   config = function()
-    local config = require("nvim-treesitter.configs") 
+    local config = require("nvim-treesitter.configs")
     config.setup({
-      ensure_installed = {"lua", "javascript", "elixir", "go"},
+      auto_install = true,
       sync_install = true,
       highlight = { enable = true },
       indent = { enable = true },
