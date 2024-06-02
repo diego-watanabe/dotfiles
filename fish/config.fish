@@ -10,3 +10,4 @@ end
  
 set -x PATH $PATH /usr/bin
 set -x PATH $PATH $HOME/go/bin
+set -U fish_user_paths /home/diego/.local/bin $fish_user_paths
